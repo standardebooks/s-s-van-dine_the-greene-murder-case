@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>s-041</code>
+			<reason>It is confusing and unhelpful to include the caption's parenthetical comment in the LoI entry.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-16.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Incorrect application of capitalization rule; title is short for "Piano Sonata No. 16 in C major".</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-030</code>
+			<reason>Lint does not recognize a German style abbreviation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
