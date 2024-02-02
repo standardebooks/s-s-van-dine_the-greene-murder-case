@@ -41,14 +41,14 @@
 		<meta id="collection-1" property="belongs-to-collection">Philo Vance</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Philo Vance investigates a series of apparently senseless shootings in the home of a wealthy New York family.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/collections/philo-vance"&gt;Philo Vance&lt;/a&gt;, the snobbish art collector turned amateur detective, finds his curiosity piqued by the shootings of two members of the Greene family household. Initially judged to be a burglary gone wrong, careful examination reveals the murders must have been carefully planned, and the perpetrator remains wholly elusive. As Vance and the New York police struggle to bring order to the Greene mansion, the murder attempts relentlessly continue.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Green Murder Case&lt;/i&gt; is the third entry in the Philo Vance series, and hearkens back to the Gothic roots of the detective genre. The melodramatic cast of characters, trapped together in a gloomy mansion and slowly decreasing in number, is almost Victorian in mood. Nevertheless, the investigation follows &lt;a href="https://standardebooks.org/ebooks/s-s-van-dine"&gt;S. S. Van Dine’s&lt;/a&gt; established trajectory, with plenty of clues for Philo Vance (and the reader) to sift through in order to uncover the truth.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72719</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000325330</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Greene_Murder_Case</meta>
