@@ -151,6 +151,15 @@ section[epub|type~="dedication"] p:nth-child(2){
 	font-style: italic;
 }
 
+/* paragraphs block via unordered list */
+#chapter-21 ul{
+	list-style: none;
+}
+
+#chapter-21 li p:first-child{
+	text-indent: 1em;
+}
+
 /* summary */
 #chapter-23 blockquote .head{
 	font-size: large;
