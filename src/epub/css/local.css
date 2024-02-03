@@ -141,17 +141,7 @@ section[epub|type~="dedication"] p:nth-child(2){
 	text-indent: 0;
 }
 
-/* letter */
-[epub|type~="z3998:letter"] header{
-	font-variant: small-caps;
-}
-
-/* letter */
-[epub|type~="z3998:salutation"]{
-	font-style: italic;
-}
-
-/* paragraphs block via unordered list */
+/* paragraphs block as list */
 #chapter-21 ul{
 	list-style: none;
 }
@@ -160,11 +150,17 @@ section[epub|type~="dedication"] p:nth-child(2){
 	text-indent: 1em;
 }
 
-/* summary */
-#chapter-23 blockquote .head{
+/* summary list */
+#chapter-23 .summary header{
 	font-size: large;
 	font-variant: small-caps;
-	margin: 0.5em 0;
-	text-align: center;
-	text-indent: 0;
+}
+
+/* letter */
+[epub|type~="z3998:letter"] header{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-style: italic;
 }
