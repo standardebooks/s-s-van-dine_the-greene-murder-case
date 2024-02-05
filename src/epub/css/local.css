@@ -132,6 +132,10 @@ section[epub|type~="dedication"] p:nth-child(2){
 	}
 }
 
+q{
+	font-style: italic;
+}
+
 /* chapter datelines */
 [epub|type~="bridgehead"]{
 	display: inline-block;
