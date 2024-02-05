@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* poetry */
 [epub|type~="z3998:verse"] p{
@@ -15,6 +16,10 @@
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+p[xml|lang]{
+	font-style: italic;
 }
 
 /* images */
@@ -90,10 +95,8 @@ section[epub|type~="dedication"] p:first-child{
 	text-transform: lowercase;
 }
 
-section[epub|type~="dedication"] p:nth-child(2){
-	font-size: large;
-	font-variant: small-caps;
-	margin-bottom: 1em;
+section[epub|type~="dedication"] b{
+	font-size: larger;
 }
 
 /* epigraph */
