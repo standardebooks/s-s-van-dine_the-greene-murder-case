@@ -50,7 +50,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/72719</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000325330</dc:source>
 		<meta property="se:word-count">95183</meta>
-		<meta property="se:reading-ease.flesch">74.79</meta>
+		<meta property="se:reading-ease.flesch">74.9</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Greene_Murder_Case</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/s-s-van-dine_the-greene-murder-case</meta>
 		<dc:creator id="author">S. S. Van Dine</dc:creator>
