@@ -2,11 +2,13 @@
 <se-lint-ignore>
 	<file path="chapter-16.xhtml">
 		<ignore code="t-064">
+			<line>102</line>
 			<reason>Incorrect application of capitalization rule; title is short for "Piano Sonata No. 16 in C major".</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
 		<ignore code="t-030">
+			<line>115</line>
 			<reason>Lint does not recognize a German style abbreviation.</reason>
 		</ignore>
 	</file>
